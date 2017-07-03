@@ -1,5 +1,5 @@
 {
-    "name": "danielmewes/php-rql",
+    "name": "php-rql/php-rql",
     "type": "library",
     "description": "A PHP client driver for the RethinkDB query language (ReQL)",
     "keywords": ["rethinkdb","driver","database","reql"],
@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.6.0"
     },
     "autoload": {
         "files": ["src/rdb/rdb.php"]
